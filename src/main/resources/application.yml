@@ -1,0 +1,15 @@
+server:
+  port: 9000
+spring:
+  application:
+    name: ipassportmailserver
+  mail:
+    host: smtp.gmail.com
+    port: 587
+    username:
+    password:
+    properties:
+      mail:
+        smtp:
+          auth: true
+          starttls.enable: true
