@@ -1,18 +1,18 @@
-package com.krungsri.ipassportmailserver.dto;
+package com.krungsri.ipassportmailserver.schema;
 
 import lombok.*;
 
 import java.time.LocalDateTime;
 
 @Data
-public class HealthDto {
+public class Health {
 
     private LocalDateTime timeStamp;
     private String status;
 
-    public HealthDto(){}
+    public Health(){}
 
-    public HealthDto(LocalDateTime timeStamp, String status) {
+    public Health(LocalDateTime timeStamp, String status) {
         this.timeStamp = timeStamp;
         this.status = status;
     }

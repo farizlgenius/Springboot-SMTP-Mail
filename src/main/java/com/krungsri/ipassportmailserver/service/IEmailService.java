@@ -1,9 +1,10 @@
 package com.krungsri.ipassportmailserver.service;
 
-import com.krungsri.ipassportmailserver.schema.EmailDetails;
+import com.krungsri.ipassportmailserver.schema.BaseResponse;
+import com.krungsri.ipassportmailserver.schema.EmailRequest;
 
 public interface IEmailService {
 
-    String sendEmail(EmailDetails emailDetails);
+    BaseResponse sendEmail(EmailRequest emailRequest);
 
 }
