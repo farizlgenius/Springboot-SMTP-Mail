@@ -6,10 +6,13 @@ spring:
   mail:
     host: smtp.gmail.com
     port: 587
-    username:
-    password:
+    username: farizl@handsv.com
+    password: "rrkz qcmm yaxp lkqu"
     properties:
       mail:
         smtp:
           auth: true
           starttls.enable: true
+service:
+  email:
+    apiKey: 1bKewn2vCnb2v2nhNBU9uKuTufomktfNpzqutfdero1014XvcGScu7mBiinRCd7vgB8RZsnjc/Ffw5Hw4WnLyA==
